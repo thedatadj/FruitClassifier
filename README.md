@@ -8,8 +8,9 @@ In this project I used a machine learning model to predict the type of fruit bas
 * To perform preprocessing.
 * To scaled the input features.
 
-# Description
+## How I did it:
 
-- Model: KNeighborsClassifier
-- Hyperparameters:
-  - n_neighbors = 5
+- Model: I used a KNeighborsClassifier
+- Parameters: 
+  - I used a `n_neighbors` = 5
+- Preprocessing: I used `MinMaxScaler`
