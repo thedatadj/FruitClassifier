@@ -1,5 +1,5 @@
 # FruitClassifier
-In this project I used a machine learning model to predict the type of fruit based on certain features.
+In this project I used a machine learning model to solve a classification problem of predicting fruit type based on a number of features.
 
 
 ## What I learned:
