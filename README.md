@@ -15,11 +15,9 @@ The results are organized into two groups:
 * binary classification results and
 * multiclass classification results.
 
-The binary classification problem is, to classify the fruits into the class label `orange` or `not orange`. For this problem I used a Logistic Regression model using sklearn and a Logistic Regression model using a Neural Network architecture that I build from scracth.
+The binary classification problem is, to classify the fruits into the class label `orange` or `not orange`. The multiclass classfication problem is, to classify each of the 4 fruit class labels: apple, orange, lemon and mandarin.
 
-The multiclass classfication problem is, to classify each of the 4 fruit class labels: apple, orange, lemon and mandarin. For this problem I used a KNN classifier where I tried two different approaches: train with unnormalized data, and train with normalized data.
-
-The following sections describe the models used, and the results of each model (branch). If you want to see the code for each model more closely, you can find the code for each model in their respective branches.
+The following sections describe the models used, and the results of each model (branch). You can find the code for each model in their respective branches.
 
 ## Models used:
 * K-Neighbor classifier
@@ -44,6 +42,10 @@ The following sections describe the models used, and the results of each model (
     <td>53%</td>
   </tr>
 </table>
+
+#### Discussion
+
+This data is not linearly separable, that is why the model is underfitting. It is too simple for the complexity of the data.
 
 ## Multiclass classification results:
 
