@@ -10,6 +10,7 @@ Each branch focuses on a specific model or approah to the problem.
 - `using-Logistic-Regression` branch: I solve the problem using Logistic Regression.
 - `using-LR-with-a-Neural-Network` branch: I used Logistic Regression using a Neural Network architecture that I build from scratch.
 - `using-KNeighborsClassifier` branch: I used sklearn's KNeighborsClassifier both with normalized input data and unnormalized input data.
+- `using-KNN-for-Binary-Classification` branch: I used a KNeighborsClassifier the binary classification version of this problem.
 
 The results are organized into two groups: 
 * binary classification results and
@@ -30,14 +31,17 @@ The following sections describe the models used, and the results of each model (
   <th>
     <td>Logistic Regression</td>
     <td>Logistic Regression with<br>a Neural Network</td>
+    <td>K-Nearest Neighbors</td>
   </th>
   <tr>
     <td>Traning score</td>
     <td>77%</td>
     <td>77%</td>
+    <td>80%</td>
   </tr>
   <tr>
     <td>Testing score</td>
+    <td>53%</td>
     <td>53%</td>
     <td>53%</td>
   </tr>
