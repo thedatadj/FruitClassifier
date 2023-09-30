@@ -9,7 +9,7 @@ Each branch focuses on a specific model or approah to the problem.
 - `main` branch of this project contains the results.
 - `using-Logistic-Regression` branch: I solve the problem using Logistic Regression.
 - `using-LR-with-a-Neural-Network` branch: I used Logistic Regression using a Neural Network architecture that I build from scratch.
--`using-KNeighborsClassifier` branch: I used sklearn's KNeighborsClassifier both with normalized input data and unnormalized input data.
+- `using-KNeighborsClassifier` branch: I used sklearn's KNeighborsClassifier both with normalized input data and unnormalized input data.
 
 The results are organized into two groups: 
 * binary classification results and
