@@ -45,7 +45,7 @@ The following sections describe the models used, and the results of each model (
 
 #### Discussion
 
-This data is not linearly separable, that is why the model is underfitting. It is too simple for the complexity of the data.
+This data is not linearly separable, that is why the logistic regression models are underfitting, they are too simple for the complexity of the data.
 
 ## Multiclass classification results:
 
