@@ -49,8 +49,8 @@ The following sections describe the models used, and the results of each model (
   </tr>
   <tr>
     <td>K-Nearest Neighbors<br>normalized</td>
-    <td>82%</td>
-    <td>60%</td>
+    <td>86%</td>
+    <td>67%</td>
   </tr>
 </table>
 
