@@ -29,23 +29,27 @@ The following sections describe the models used, and the results of each model (
 
 <table>
   <th>
-    <td>Logistic Regression</td>
-    <td>Logistic Regression with<br>a Neural Network</td>
-    <td>K-Nearest Neighbors<br>unnormalized</td>
-    <td>K-Nearest Neighbors<br>normalized</td>
+    <td>Traning score</td>
+    <td>Testing score</td>
   </th>
   <tr>
-    <td>Traning score</td>
+    <td>Logistic Regression</td>
     <td>77%</td>
-    <td>77%</td>
-    <td>80%</td>
-    <td>82%</td>
+    <td>53%</td>
   </tr>
   <tr>
-    <td>Testing score</td>
+    <td>Logistic Regression with<br>a Neural Network</td>
+    <td>77%</td>
     <td>53%</td>
+  </tr>
+  <tr>
+    <td>K-Nearest Neighbors<br>unnormalized</td>
+    <td>80%</td>
     <td>53%</td>
-    <td>53%</td>
+  </tr>
+  <tr>
+    <td>K-Nearest Neighbors<br>normalized</td>
+    <td>82%</td>
     <td>60%</td>
   </tr>
 </table>
@@ -58,17 +62,17 @@ This data is not linearly separable, that is why the logistic regression models 
 
 <table>
   <th>
-    <td>K-Nearest Neighbors with<br>unnormalized data</td>
-    <td>K-Nearest Neighbors with<br>normalized data</td>
+    <td>Traning score</td>
+    <td>Testing score</td>
   </th>
   <tr>
-    <td>Traning score</td>
+    <td>K-Nearest Neighbors with<br>unnormalized data</td>
     <td>80%</td>
-    <td>95%</td>
+    <td>53%</td>
   </tr>
   <tr>
-    <td>Testing score</td>
-    <td>53%</td>
+    <td>K-Nearest Neighbors with<br>normalized data</td>
+    <td>95%</td>
     <td>100%</td>
   </tr>
 </table>
