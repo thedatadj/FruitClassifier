@@ -17,11 +17,11 @@ In this project I use different models to solve a classification problem of pred
   <tr>
     <td>Traning score</td>
     <td>77%</td>
-    <td>53%</td>
+    <td>77%</td>
   </tr>
   <tr>
     <td>Testing score</td>
-    <td>77%</td>
+    <td>53%</td>
     <td>53%</td>
   </tr>
 </table>
