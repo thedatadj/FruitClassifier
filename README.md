@@ -1,16 +1,11 @@
 # FruitClassifier
-In this project I used a machine learning model to solve a classification problem of predicting fruit type based on a number of features.
+In this project I use different models to solve a classification problem of predicting fruit type based on a number of features and compare the results.
 
 
-## What I learned:
+## Models used:
+* KNeighborclassifier
+* LogisticRegression
+* Logistic Regression using a Neural Network
 
-* To reduce underfitting in a machine learning model.
-* To normalize the input features.
+## Results
 
-## How I did it:
-
-- Preprocessing: I normalized the input features.
-    - I used `MinMaxScaler` to scaled the features.
-- Model: I used a `KNeighborsClassifier`
-- Parameters: 
-  - I used a `n_neighbors` = 5
