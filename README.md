@@ -31,19 +31,22 @@ The following sections describe the models used, and the results of each model (
   <th>
     <td>Logistic Regression</td>
     <td>Logistic Regression with<br>a Neural Network</td>
-    <td>K-Nearest Neighbors</td>
+    <td>K-Nearest Neighbors<br>unnormalized</td>
+    <td>K-Nearest Neighbors<br>normalized</td>
   </th>
   <tr>
     <td>Traning score</td>
     <td>77%</td>
     <td>77%</td>
     <td>80%</td>
+    <td>82%</td>
   </tr>
   <tr>
     <td>Testing score</td>
     <td>53%</td>
     <td>53%</td>
     <td>53%</td>
+    <td>60%</td>
   </tr>
 </table>
 
