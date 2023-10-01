@@ -11,6 +11,7 @@ Each branch focuses on a specific model or approah to the problem.
 - `using-LR-with-a-Neural-Network` branch: I used Logistic Regression using a Neural Network architecture that I build from scratch.
 - `using-KNeighborsClassifier` branch: I used sklearn's KNeighborsClassifier both with normalized input data and unnormalized input data.
 - `using-KNN-for-Binary-Classification` branch: I used a KNeighborsClassifier the binary classification version of this problem.
+- `using-SVM` branch: I used a Support Vector Machine algorithm.
 
 The results are organized into two groups: 
 * binary classification results and
@@ -74,5 +75,10 @@ This data is not linearly separable, that is why the logistic regression models 
     <td>K-Nearest Neighbors with<br>normalized data</td>
     <td>95%</td>
     <td>100%</td>
+  </tr>
+  <tr>
+    <td>Support Vector Machine</td>
+    <td>86%</td>
+    <td>87%</td>
   </tr>
 </table>
